@@ -1,0 +1,22 @@
+{
+  "name": "interactive-doors-portfolio",
+  "version": "1.0.0",
+  "description": "Interactive, high-performance portfolio featuring 3D walk-through doors, responsive showcase cards, and fluid page transitions.",
+  "main": "index.html",
+  "scripts": {
+    "start": "python serve.py 8080",
+    "dev": "python serve.py 8080",
+    "serve": "npx serve ."
+  },
+  "keywords": [
+    "portfolio",
+    "interactive",
+    "creative-developer",
+    "3d-doors",
+    "lenis",
+    "responsive",
+    "frontend"
+  ],
+  "author": "",
+  "license": "MIT"
+}
