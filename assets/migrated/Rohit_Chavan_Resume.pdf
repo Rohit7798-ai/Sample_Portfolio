@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohit Chavan - Data Science Portfolio</title>
+    <meta name="description" content="BSc Data Science student passionate about turning data into insights. Skilled in Python, Machine Learning, and Data Visualization." />
+    <meta name="author" content="Rohit Chavan" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- Preload critical assets -->
+    <link rel="preload" href="data:image/webp;base64,UklGRr4EAABXRUJQVlA4ILIEAABQFACdASpAAEAAPkkeikQioaEY/HdsKASEoArlWN1b57Zm+MJ1rF2eBjqbcO7kt5ls+XQDw18lHt+VEcL9LH09gPLj+uGv4RoejToL+oPYNTGH7SRs96OOdSelHBavMjV+8HPLQZYfJvB808K6sB0FwXzj1Lu45jk0nHUiGT751B5vXaJJPV4Kb3LfejiXNfVPcPpv9eFJH9IoSpxwxBPFGVBwz/TQ4PnHJdAA/upvL/yzg/J6vgzpQIlzmiO7+caYP8F/EqvTz7ncFmNqTMmfmb++/gTgtOB6bYDR2GhFm9O/icgL45dOEoQ4oGEEEJfn1y+VHxW08t0Xm7DT3v/cL4CXxtPkMeXm+gWZ8agVkuSh3igP+69BcALVOjfpZjz2Sm8SXCWQMpMQEz3eIM830VFtKsoqObDjbHu2ghC/M0LI4eZlsC/P2ipRfxTJPU1XHCtncxkZqeBvQWC68i6439nc1/UPfNkLX/t9wXSDqEe/jXf2iOBj9OJNHEBMiMvnOaetXFdFN5H+F2l8VO+dUt4sb3ay7k1xfH/twX4LMELzNFQ9Qp7Abd02fZjmTHFrtoYMeJ94Rnp+iKMieV+gJc76/PzByu9B3h7WGQ5zbG24zRgxtZ9lUA8jcD/y3c3nryeBWQqS+Y6Xh6ynK7KLM3dcTjC2t871mn47QovPpa3lK+ILXvS2ric9Gwk8ILiWRogVJADPdiY4uYz0l224jSwGVu7KkMIe0IMs15JmhoWEJMDL0k4+zQqczH1DuqQKJ+deSgryEDSsxQfv7XXpS8n6yoyKonjVC2BKyn7xDyuTyMV3RGqQGXYbWlh03FcJfuAIs9nc8xu0LJLHup4pi8Rl9nZ7X5AbbhI4LI+VNYbICkxG2QwcO8EA4ai2tbA3UdXXT3nLgpeAavSYPf6gyj7BqHYB6K5JQdgbwIJgKzhh3H8OdK6Yvhwwsyk/KSfWFi/0/a2YOIA2O8cZvHEQWKRp3dTAzM0TVZbOQlj8DbusFpE/dlC8FDlywiV62c5gTcrXup+/ksdGRgd9p0JsCwb5Sjg9xDdBpWPHfqc1KrasUj3YUzln7cjq5UGDIjZGftH+M+9Dey759GciRqlC9cJlSA1XsUpPyDg8OHfYYJyHFCNjqtoPKEImPTTKHVNX3mrc1oOk3GdXbrgmBfuJQFVo2Fqf2C7DP0O7y8qnnxng5MOFwzGcRO3gcv5qrkiAn2CU1kjom3FgUpbcYiqczAD2aPPfk9YtXXFBCNSiDOY2fdFRk867sMZm+dtb7a7pIaGTGXhp6HFDEknV3L2x+Qr8k1qcMiRdEN2iSzs6iTQhAcyieSq2TVxlZmKuFUlfnjQqvIMpFbFh/UXN2v53x/1SuoZ81gRnTmW7JMl2e6FX/xgf/v3326F5Bs7V/l8aUNhKGw3rk+sU0kafHswF8dskCNQDZn3tUO0QWFSYDHa/TiSLK2bjLt+wwQ1S25swHDo4EgzF4+dmrMGzcjcdnHl0yUhmoLYaAspHCNkTSOIes+z/v3VMxyLVtMVMVFHyboHks5sb06gy5WoK7ojfQfDuY/a0exi+c1Pbtq4hBxmkQcxk8A3KE6q2hofXFBaAAA==" as="image" type="image/webp" />
+
+    <!-- Preconnect to external domains for faster loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://images.unsplash.com">
+    
+    <!-- Google Fonts loaded asynchronously to eliminate render blocking -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    </noscript>
+
+    <meta property="og:title" content="Rohit Chavan - Data Science Portfolio" />
+    <meta property="og:description" content="BSc Data Science student passionate about turning data into insights. Skilled in Python, Machine Learning, and Data Visualization." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/uploads/1b1a06e0-9aff-45c7-a7e7-e9a02971cb69.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@chavanrohittt" />
+    <meta name="twitter:image" content="/uploads/1b1a06e0-9aff-45c7-a7e7-e9a02971cb69.png" />
+    <script type="module" crossorigin src="/assets/index-3kwnC27X.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-AlAyFaK5.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

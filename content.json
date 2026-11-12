@@ -1,0 +1,265 @@
+{
+  "profile": {
+    "name": "Rohit P. Chavan",
+    "shortName": "Rohit",
+    "eyebrow": "Data Science & AI",
+    "headline": "BSc Data Science student passionate about turning data into insights.",
+    "roles": [
+      "Data Scientist",
+      "Machine Learning Engineer",
+      "Data Analyst",
+      "AI Developer"
+    ],
+    "bioSummary": "Raw data doesn't tell you much on its own. I do the work in between cleaning it, finding what matters, and presenting it in a way that drives real decisions. I use Python, Pandas, NumPy, Matplotlib, and Excel across the whole pipeline: from messy spreadsheets to finished dashboards.",
+    "longBio": "I'm a MCA student at Institute of Management Research and Development, Shirpur, building expertise in Python, data analysis, and statistical modeling. I enjoy transforming raw data into clear, actionable insights and developing AI-driven solutions to real-world problems. With certifications in Python and IT, along with a track record of hands-on projects, I aim to contribute wherever data and technology can make a difference.",
+    "location": "Shirpur, Maharashtra, India",
+    "email": "chavanrohit2213@gmail.com",
+    "avatar": "assets/migrated/profile-picture-CRZIL6z0.webp",
+    "resume": "assets/migrated/Rohit_Chavan_Resume.pdf",
+    "socials": {
+      "github": "https://github.com/Rohit7798-ai",
+      "linkedin": "https://www.linkedin.com/in/chavanrohittt",
+      "medium": "https://medium.com/@chavanrohit",
+      "twitter": "https://twitter.com/chavanrohittt"
+    }
+  },
+  "skills": [
+    {
+      "name": "Python",
+      "category": "Programming"
+    },
+    {
+      "name": "Pandas",
+      "category": "Data Manipulation"
+    },
+    {
+      "name": "NumPy",
+      "category": "Numerical Computing"
+    },
+    {
+      "name": "Matplotlib",
+      "category": "Data Visualization"
+    },
+    {
+      "name": "Machine Learning",
+      "category": "AI & Modeling"
+    },
+    {
+      "name": "Statistical Analysis",
+      "category": "Statistics"
+    },
+    {
+      "name": "LangChain & RAG",
+      "category": "GenAI"
+    },
+    {
+      "name": "FAISS Vector Search",
+      "category": "GenAI"
+    },
+    {
+      "name": "Streamlit",
+      "category": "Web Apps"
+    },
+    {
+      "name": "Database & SQL",
+      "category": "Data Storage"
+    }
+  ],
+  "educationAndExperience": [
+    {
+      "period": "2024 – Present",
+      "title": "Master of Computer Applications (MCA)",
+      "organization": "Institute of Management Research and Development, Shirpur",
+      "desc": "Advanced studies in computer applications, distributed architectures, software engineering, and large-scale data science solutions."
+    },
+    {
+      "period": "2021 – 2024",
+      "title": "Bachelor of Science in Data Science (BSc)",
+      "organization": "Kavayitri Bahinabai Chaudhari North Maharashtra University, Jalgaon",
+      "desc": "Relevant Coursework: Machine Learning, Statistical Analysis, Database Management, Data Structures, Algorithms."
+    },
+    {
+      "period": "Summer 2025",
+      "title": "Intern",
+      "organization": "CollegeTips.in",
+      "desc": "Engaged in online internship activities aimed at boosting creativity, content strategies, and audience analytics."
+    },
+    {
+      "period": "2019 – 2021",
+      "title": "Higher Secondary Certificate (XII - Science)",
+      "organization": "R.C. Patel Junior College, Shirpur",
+      "desc": "Completed higher secondary education with focus on science subjects, physics, mathematics, and computing fundamentals."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "365 Data Science: Data Cleaning and Preprocessing with pandas",
+      "issuer": "365 Data Science",
+      "credentialType": "Certificate of Achievement • 5 CPE Credits",
+      "image": "assets/migrated/data-cleaning-and-preprocessing-with-pandas-365.webp"
+    },
+    {
+      "name": "Kaggle: Pandas",
+      "issuer": "Kaggle",
+      "credentialType": "Certificate of Completion",
+      "image": "assets/migrated/1a2a8169-37d1-4ec7-adaf-7d303df90df3.webp"
+    },
+    {
+      "name": "Deloitte: Data Analytics Job Simulation",
+      "issuer": "Deloitte / Forage",
+      "credentialType": "Certificate of Completion",
+      "image": "assets/migrated/97c2e73b-64d8-4c48-8966-0dad4b39046f.webp"
+    },
+    {
+      "name": "Kaggle: Intro to Machine Learning",
+      "issuer": "Kaggle",
+      "credentialType": "Certificate of Completion",
+      "image": "assets/migrated/ea446889-743c-4bf0-a5c0-5eb1f6d13945.webp"
+    },
+    {
+      "name": "CollegeTips.in: Summer Internship 2025",
+      "issuer": "CollegeTips.in",
+      "credentialType": "Internship Offer Letter & Verification",
+      "image": "assets/migrated/collegetips-internship-offer-letter.webp"
+    }
+  ],
+  "doors": {
+    "door1_analyticProjects": {
+      "title": "Analytic Projects",
+      "heading": "Commercial Analytics & Exploratory Data Science",
+      "projects": [
+        {
+          "title": "Superstore Business Performance Analysis",
+          "sub": "$2.2M+ Revenue Analysis · 9,994 Transaction Records",
+          "kind": "Commercial Analytics · Retail Portfolio",
+          "desc": "Explored 9,994 retail transaction records spanning multiple years, segmenting $2.2M+ in revenue by shipping mode, customer segment, and geography. Identified furniture loss pockets (Tables: -$17,725) and Technology as top profit driver ($145K+).",
+          "tags": [
+            "EDA",
+            "Profitability",
+            "Pandas",
+            "Matplotlib",
+            "Seaborn"
+          ],
+          "shot": "assets/migrated/superstore-performance-DCUSBugt.webp"
+        },
+        {
+          "title": "Netflix Global Content & Catalog Trends",
+          "sub": "Streaming Platform Content & Production Analytics",
+          "kind": "Exploratory Data Analysis · Entertainment Industry",
+          "desc": "Comprehensive evaluation of Netflix content growth over time, popular genres, country-level distribution, clear dominance of Movies over TV Shows, and key content producer dynamics.",
+          "tags": [
+            "Content Analytics",
+            "Seaborn",
+            "Data Cleaning",
+            "Python"
+          ],
+          "shot": "assets/migrated/1b1a06e0-9aff-45c7-a7e7-e9a02971cb69.webp"
+        },
+        {
+          "title": "Telecom Customer Churn Analysis",
+          "sub": "Retention Modeling & Churn Risk Drivers",
+          "kind": "Customer Retention Intelligence",
+          "desc": "Identified high-risk churn indicators across customer tenures, contract commitments, internet service types, and payment mechanisms to recommend high-impact customer retention campaigns.",
+          "tags": [
+            "Churn Modeling",
+            "Data Analysis",
+            "Python",
+            "Risk Scoring"
+          ],
+          "shot": "assets/migrated/telecom-churn-analysis-CMTomBhN.webp"
+        },
+        {
+          "title": "IPL Auction 2023 - Dynamics & Value Picks",
+          "sub": "Sports Analytics · Franchise Spend Efficiency",
+          "kind": "Sports Data Analytics",
+          "desc": "Summarized auction dynamics across franchises, player categories, and bid distributions to surface spend efficiency and high-value player acquisitions.",
+          "tags": [
+            "Sports Analytics",
+            "Python",
+            "Data Visualization",
+            "Bidding Trends"
+          ],
+          "shot": "assets/migrated/ipl-auction-summary-BhFJOa8v.webp"
+        },
+        {
+          "title": "Student Performance Interactive Dashboard",
+          "sub": "Coursework & Demographic Test Score Analytics",
+          "kind": "Demographic & Academic Analytics",
+          "desc": "Visual dashboard analyzing parental education, test preparation courses, and demographic correlations with student test scores across reading, writing, and mathematics.",
+          "tags": [
+            "Dashboard",
+            "Plotly",
+            "Statistical Visuals",
+            "Academic Analytics"
+          ],
+          "shot": "assets/migrated/student-performance-dashboard-D00K1Oxr.webp"
+        }
+      ]
+    },
+    "door2_aiAppsOrRag": {
+      "title": "AI Apps & RAG",
+      "heading": "Intelligent Systems & Interactive Visual Platforms",
+      "projects": [
+        {
+          "title": "MediBot - Medical AI Assistant",
+          "sub": "LangChain · Llama 3.1 8B · FAISS Vector Search",
+          "kind": "GenAI & RAG Application",
+          "desc": "Retrieval-Augmented Generation system providing context-grounded answers to medical queries based on The Gale Encyclopedia of Medicine using LangChain, Hugging Face Llama 3.1 8B, FAISS vector search, and Streamlit.",
+          "tags": [
+            "LangChain",
+            "Llama 3.1",
+            "FAISS",
+            "RAG",
+            "Streamlit"
+          ],
+          "url": "https://github.com/Rohit7798-ai/medibot",
+          "shot": "assets/migrated/ai-jobs-impact-wYzQ0UmL.webp"
+        },
+        {
+          "title": "LuminaViz - Interactive Analytics Dashboard",
+          "sub": "Custom Dataset Upload · luminaviz.netlify.app",
+          "kind": "Dynamic Web Application & Visualization Platform",
+          "desc": "Interactive web application empowering users to upload custom CSV/Excel datasets and instantly generate dynamic visual dashboards with auto-inferred data types and responsive charts.",
+          "tags": [
+            "Interactive Dashboard",
+            "Web App",
+            "Charts",
+            "Netlify Live"
+          ],
+          "url": "https://luminaviz.netlify.app/",
+          "shot": "assets/migrated/luminaviz-UoP_lkp-.webp"
+        }
+      ]
+    },
+    "door3_certificates": {
+      "title": "Certificates",
+      "heading": "Verified Accreditations & Credentials",
+      "credentials": [
+        {
+          "title": "Data Cleaning and Preprocessing with pandas",
+          "issuer": "365 Data Science",
+          "sub": "5 CPE Credits",
+          "image": "assets/migrated/data-cleaning-and-preprocessing-with-pandas-365.webp"
+        },
+        {
+          "title": "Pandas Intermediate & Advanced",
+          "issuer": "Kaggle",
+          "sub": "Certificate of Completion",
+          "image": "assets/migrated/1a2a8169-37d1-4ec7-adaf-7d303df90df3.webp"
+        },
+        {
+          "title": "Data Analytics Job Simulation",
+          "issuer": "Deloitte / Forage",
+          "sub": "Simulation Certification",
+          "image": "assets/migrated/97c2e73b-64d8-4c48-8966-0dad4b39046f.webp"
+        },
+        {
+          "title": "Summer Internship Offer & Verification",
+          "issuer": "CollegeTips.in",
+          "sub": "Internship Program",
+          "image": "assets/migrated/collegetips-internship-offer-letter.webp"
+        }
+      ]
+    }
+  }
+}

@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-<title>Freelance iOS App Developer — Rishi Thakor</title>
+<title>Analytic Projects — Rohit Chavan</title>
 <link rel="preload" href="../fonts/onest-latin.woff2" as="font" type="font/woff2" crossorigin>
 <style>@font-face{font-family:'Onest';font-style:normal;font-display:swap;font-weight:100 900;src:url(../fonts/onest-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Onest';font-style:normal;font-display:swap;font-weight:100 900;src:url(../fonts/onest-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}</style>
 
-<meta name="description" content="Native iOS apps and games designed and built from first sketch to the App Store. Freelance app developer working remotely with businesses in the US, UK and worldwide." />
+<meta name="description" content="Commercial analytics, exploratory data analysis across 9,900+ records, retention modeling, and interactive academic performance dashboards." />
 <meta name="theme-color" content="#1A1818" />
-<script>if(/[?&]embed\b/.test(location.search))document.documentElement.classList.add('embed');try{if(localStorage.getItem('rishi-mode')==='dark')document.documentElement.dataset.mode='dark'}catch(e){}</script>
+<script>if(/[?&]embed\b/.test(location.search))document.documentElement.classList.add('embed');try{if(localStorage.getItem('rohit-mode')==='dark')document.documentElement.dataset.mode='dark'}catch(e){}</script>
 <style>
 :root{--bg:#E8E4E0;--fg:#1A1818;--fg-rgb:26,24,24;--card:#F3F0EC;--card-line:rgba(26,24,24,.08);--accent:#6B4F4F;--room:#FBFAF8;
   --shadow:0 -1px 0 rgba(255,255,255,.6) inset,0 30px 60px -30px rgba(26,24,24,.35),0 -12px 40px -24px rgba(26,24,24,.25);
@@ -64,40 +64,33 @@ h1{font-size:clamp(44px,7vw,84px);font-weight:600;letter-spacing:-.025em;line-he
 .note{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:500;color:rgba(var(--fg-rgb),.68)}
 .note::before{content:"";width:7px;height:7px;border-radius:50%;background:#7a8670}
 
-/* ---------- the phone: an iPhone turned slightly side-on ---------- */
-.card__in{--w:clamp(210px,calc((100svh - var(--nav-h,72px) - 240px) * .5),320px);--sw:calc(var(--w) * .916)}
-.stage{position:relative;perspective:1600px;perspective-origin:50% 45%;display:grid;place-items:center;padding:6px 0 34px}
-.phone{position:relative;width:var(--w);transform-style:preserve-3d;transform:rotateY(-21deg) rotateX(6deg) rotateZ(1.2deg);transition:transform 1.2s cubic-bezier(.16,1,.3,1)}
-.card.flip .phone{transform:rotateY(21deg) rotateX(6deg) rotateZ(-1.2deg)}
-.card:hover .phone{transform:rotateY(-12deg) rotateX(3deg) rotateZ(.5deg)}
-.card.flip:hover .phone{transform:rotateY(12deg) rotateX(3deg) rotateZ(-.5deg)}
-/* titanium frame, then the black bezel, then the screen */
-.phone__body{position:relative;transform-style:preserve-3d;padding:calc(var(--w) * .012);border-radius:calc(var(--w) * .168);
-  background:linear-gradient(145deg,#e4e0db 0%,#8f8a85 22%,#5b5753 48%,#9d9893 74%,#e6e2dd 100%);
-  box-shadow:inset 0 0 0 1px rgba(255,255,255,.35),0 50px 80px -40px rgba(26,24,24,.55),0 18px 30px -18px rgba(26,24,24,.35)}
-html[data-mode="dark"] .phone__body{box-shadow:inset 0 0 0 1px rgba(255,255,255,.25),0 50px 80px -40px rgba(0,0,0,.9),0 18px 30px -18px rgba(0,0,0,.7)}
-/* the frame's thickness: an edge you see because the phone is turned */
-.phone__body::before{content:"";position:absolute;top:calc(var(--w) * .16);bottom:calc(var(--w) * .16);right:0;width:calc(var(--w) * .05);transform-origin:100% 50%;transform:rotateY(-90deg);
-  background:linear-gradient(180deg,#cfcac5,#8c8783 30%,#6d6965 70%,#b9b4af)}
-.card.flip .phone__body::before{right:auto;left:0;transform-origin:0 50%;transform:rotateY(90deg)}
-.phone__btn{position:absolute;width:calc(var(--w) * .014);border-radius:2px;background:linear-gradient(90deg,#6e6a66,#bdb8b3);transform:translateZ(-1px)}
-.phone__btn.l{left:calc(var(--w) * -.008)}.phone__btn.r{right:calc(var(--w) * -.008)}
-.phone__screen{position:relative;box-sizing:content-box;aspect-ratio:1180/2556;border:calc(var(--w) * .03) solid #050505;border-radius:calc(var(--w) * .156);overflow:hidden;background:#141414 center/cover no-repeat;transform:translateZ(.5px)}
-.phone__screen video{border-radius:calc(var(--w) * .126);position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-.phone__screen::after{content:"";position:absolute;inset:0;pointer-events:none;
-  background:linear-gradient(118deg,rgba(255,255,255,.14) 0%,rgba(255,255,255,.03) 30%,transparent 44%)}
-.island{position:absolute;left:34%;top:calc(var(--sw) * .028);width:32%;aspect-ratio:126/37;border-radius:999px;background:#000}
-.sbar{position:absolute;left:0;right:0;top:0;height:calc(var(--sw) * .15);display:flex;align-items:center;justify-content:space-between;
-  padding:0 calc(var(--sw) * .085) 0 calc(var(--sw) * .115);color:#fff;font-size:calc(var(--sw) * .043);font-weight:600;letter-spacing:-.01em;pointer-events:none}
-.sbar svg{height:calc(var(--sw) * .036);width:auto;display:block}
-.sbar span:last-child{display:flex;align-items:center;gap:calc(var(--sw) * .014)}
-.stage::after{content:"";position:absolute;left:50%;bottom:10px;width:calc(var(--w) * 1.05);height:26px;transform:translateX(-50%);border-radius:50%;
-  background:radial-gradient(closest-side,rgba(0,0,0,.3),transparent);filter:blur(7px);z-index:-1}
+/* ---------- the desktop: a slightly side-on monitor ---------- */
+.stage{position:relative;perspective:1900px;perspective-origin:50% 40%;padding:10px 0 28px}
+.mon{position:relative;transform-style:preserve-3d;transform:rotateY(-17deg) rotateX(4deg);transition:transform 1.2s cubic-bezier(.16,1,.3,1);margin-inline:auto;width:100%;max-width:720px}
+.card.flip .mon{transform:rotateY(17deg) rotateX(4deg)}
+.card:hover .mon{transform:rotateY(-12deg) rotateX(3deg)}
+.card.flip:hover .mon{transform:rotateY(12deg) rotateX(3deg)}
+.mon__body{position:relative;transform-style:preserve-3d;--mp:clamp(5px,1.3vw,11px);padding:var(--mp);border-radius:calc(var(--mp) + 8px);background:linear-gradient(160deg,#2a2828,#0d0c0c 60%);
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.08),inset 0 1px 0 rgba(255,255,255,.12)}
+/* the monitor's thickness: an edge you see because it is turned */
+.mon__body::before{content:"";position:absolute;top:10px;bottom:10px;right:0;width:22px;transform-origin:100% 50%;transform:rotateY(-90deg);
+  background:linear-gradient(180deg,#bdb9b5,#8d8985 50%,#6f6b68);border-radius:0 6px 6px 0}
+.card.flip .mon__body::before{right:auto;left:0;transform-origin:0 50%;transform:rotateY(90deg)}
+.mon__screen{position:relative;aspect-ratio:16/10;border-radius:8px;overflow:hidden;background:#000;transform:translateZ(.5px)}
+.mon__screen img.page{position:absolute;left:0;top:0;width:100%;height:auto;display:block;will-change:transform;
+  transform:translate3d(0,0,0)}
+
+.mon__screen video{border-radius:inherit;position:absolute;inset:0;width:100%;height:100%;object-fit:contain!important;display:block}
+.mon__screen.vid{aspect-ratio:var(--ar,16/10)}
+.mon__screen::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(118deg,rgba(255,255,255,.16) 0%,rgba(255,255,255,.04) 28%,transparent 42%),linear-gradient(0deg,rgba(0,0,0,.12),transparent 30%)}
+.mon__neck{position:relative;width:15%;height:clamp(40px,7vw,78px);margin:-2px auto 0;transform:translateZ(-30px);
+  background:linear-gradient(90deg,#8e8a86,#d9d5d0 45%,#b7b2ad 60%,#7e7a76);clip-path:polygon(8% 0,92% 0,100% 100%,0 100%)}
+.mon__foot{width:36%;height:12px;margin:0 auto;border-radius:3px 3px 8px 8px;transform:translateZ(-30px);
+  background:linear-gradient(180deg,#e5e1dc,#a9a49f);box-shadow:0 1px 0 rgba(255,255,255,.5) inset}
+.stage::after{content:"";position:absolute;left:18%;right:18%;bottom:14px;height:26px;border-radius:50%;
+  background:radial-gradient(closest-side,rgba(0,0,0,.35),transparent);filter:blur(6px);z-index:-1}
 html[data-mode="dark"] .stage::after{background:radial-gradient(closest-side,rgba(0,0,0,.8),transparent)}
-/* the app's own icon beside its name */
-.app{display:flex;align-items:center;gap:14px;margin-bottom:22px}
-.app img{width:58px;height:58px;border-radius:13px;display:block;box-shadow:0 8px 18px -10px rgba(26,24,24,.5),0 0 0 1px rgba(var(--fg-rgb),.06)}
-.app .card__meta{margin-bottom:0}
 
 /* arriving */
 .card .card__info>*,.card .stage{transition:opacity .8s ease,transform 1s cubic-bezier(.16,1,.3,1)}
@@ -116,16 +109,15 @@ html[data-mode="dark"] .stage::after{background:radial-gradient(closest-side,rgb
   /* phones: each card fits one screen, desktop on top, the essentials below */
   .card__in{padding:16px 18px 20px;min-height:auto;gap:4px;max-height:calc(100svh - var(--nav-h,64px) - 40px)}
   .stage{order:-1;padding:4px 6% 18px}
+  .mon__neck{height:30px}
   .card__meta{margin-bottom:8px;font-size:11px}
   .card h2{font-size:26px;margin-bottom:4px}
   .card .sub{font-size:13px;margin-bottom:10px}
   .card .desc{font-size:14px;line-height:1.5;margin-bottom:14px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
   .tags{display:none}
   .live{height:44px;padding:0 18px;font-size:13px}
-  .card__in{--w:clamp(150px,calc((100svh - var(--nav-h,64px) - 370px) * .47),230px)}
-  .phone,.card.flip .phone{transform:rotateY(-14deg) rotateX(4deg) rotateZ(.6deg)}
-  .card.flip .phone__body::before{right:0;left:auto;transform-origin:100% 50%;transform:rotateY(-90deg)}
-  .app{margin-bottom:10px;gap:12px}.app img{width:42px;height:42px;border-radius:10px}
+  .mon,.card.flip .mon{transform:rotateY(-10deg) rotateX(3deg)}
+  .card.flip .mon__body::before{right:0;left:auto;transform-origin:100% 50%;transform:rotateY(-90deg)}
 }
 @media (prefers-reduced-motion:reduce){
   .glow{display:none}
@@ -306,35 +298,35 @@ html[data-mode="dark"] .skel::after{background-image:linear-gradient(100deg,#231
 .rn__in{min-width:0}
 .rn nav{min-width:0}
 </style>
-<link rel="canonical" href="https://therishithakor.com/app-developer/" />
+<link rel="canonical" href="https://the-portfolio-tau.vercel.app/web-developer/" />
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
-<meta name="author" content="Rishi Thakor" />
-<link rel="icon" href="/favicon.ico" sizes="48x48" />
-<link rel="icon" type="image/png" href="/icon-192.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<meta name="author" content="Rohit Chavan" />
+<link rel="icon" href="../assets/migrated/favicon.png" sizes="48x48" />
+<link rel="icon" type="image/png" href="../assets/migrated/favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="../assets/migrated/favicon.png" />
 <meta property="og:type" content="website" />
-<meta property="og:site_name" content="Rishi Thakor" />
+<meta property="og:site_name" content="Rohit Chavan" />
 <meta property="og:locale" content="en_US" />
-<meta property="og:url" content="https://therishithakor.com/app-developer/" />
-<meta property="og:title" content="Freelance iOS App Developer — Rishi Thakor" />
-<meta property="og:description" content="Native iOS apps and games designed and built from first sketch to the App Store. Freelance app developer working remotely with businesses in the US, UK and worldwide." />
-<meta property="og:image" content="https://therishithakor.com/og.jpg?v=2" />
-<meta property="og:image:secure_url" content="https://therishithakor.com/og.jpg?v=2" />
+<meta property="og:url" content="https://the-portfolio-tau.vercel.app/web-developer/" />
+<meta property="og:title" content="Freelance Web Developer — Rohit Chavan" />
+<meta property="og:description" content="Custom websites and web apps designed and built end to end: fast, responsive front-ends with a real design eye. Remote web developer working with US and UK clients." />
+<meta property="og:image" content="https://the-portfolio-tau.vercel.app/og.jpg?v=2" />
+<meta property="og:image:secure_url" content="https://the-portfolio-tau.vercel.app/og.jpg?v=2" />
 <meta property="og:image:type" content="image/jpeg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:image:alt" content="Rishi Thakor&#39;s portfolio" />
+<meta property="og:image:alt" content="Rohit Chavan&#39;s portfolio" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Freelance iOS App Developer — Rishi Thakor" />
-<meta name="twitter:description" content="Native iOS apps and games designed and built from first sketch to the App Store. Freelance app developer working remotely with businesses in the US, UK and worldwide." />
-<meta name="twitter:image" content="https://therishithakor.com/og.jpg?v=2" />
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://therishithakor.com/#rishi","name":"Rishi Thakor","url":"https://therishithakor.com","jobTitle":"Freelance Developer, Designer and Photographer","image":"https://therishithakor.com/og.jpg?v=2","description":"Freelance web and iOS developer, UI/UX designer, graphic designer and photographer working remotely with clients worldwide.","knowsAbout":["Web development","iOS app development","UI/UX design","Graphic design","Brand identity","Photography"],"address":{"@type":"PostalAddress","addressCountry":"IN"},"knowsLanguage":["en"],"worksFor":{"@id":"https://therishithakor.com/#org"}},{"@type":"Organization","@id":"https://therishithakor.com/#org","name":"Rishi Thakor — Design & Development","alternateName":"Rishi Thakor","url":"https://therishithakor.com","image":"https://therishithakor.com/og.jpg?v=2","logo":{"@type":"ImageObject","url":"https://therishithakor.com/icon-512.png","width":512,"height":512},"founder":{"@id":"https://therishithakor.com/#rishi"},"email":"rishithakor218@gmail.com","contactPoint":{"@type":"ContactPoint","contactType":"sales","email":"rishithakor218@gmail.com","availableLanguage":"en","areaServed":["US","GB","CA","AU"]},"description":"Freelance web development, iOS app development, UI/UX design and graphic design, delivered remotely.","areaServed":[{"@type":"Country","name":"United States"},{"@type":"Country","name":"United Kingdom"},{"@type":"Country","name":"Canada"},{"@type":"Country","name":"Australia"},"Worldwide"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Web development","description":"Websites and web applications designed and built end to end."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"iOS app development","description":"Native iOS apps and games, from first sketch to the App Store."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"UI/UX design","description":"Product and interface design: user flows, wireframes and finished UI."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Graphic design","description":"Brand identity, social media creatives, posters and logos."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Photography","description":"Portrait, event and street photography."}}]}},{"@type":"WebSite","@id":"https://therishithakor.com/#site","url":"https://therishithakor.com","name":"Rishi Thakor — Portfolio","publisher":{"@id":"https://therishithakor.com/#rishi"},"inLanguage":"en"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://therishithakor.com/"},{"@type":"ListItem","position":2,"name":"Freelance iOS App Developer","item":"https://therishithakor.com/app-developer/"}]}]}</script>
+<meta name="twitter:title" content="Analytic Projects — Rohit Chavan" />
+<meta name="twitter:description" content="Commercial analytics, exploratory data analysis across 9,900+ records, retention modeling, and interactive academic performance dashboards." />
+<meta name="twitter:image" content="https://the-portfolio-tau.vercel.app/og.jpg?v=2" />
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://the-portfolio-tau.vercel.app/#rohit","name":"Rohit Chavan","url":"https://the-portfolio-tau.vercel.app","jobTitle":"Data Scientist & Machine Learning Developer","image":"https://the-portfolio-tau.vercel.app/assets/migrated/profile-picture-CRZIL6z0.webp","description":"BSc Data Science graduate and MCA student specializing in Python, Machine Learning, LangChain, FAISS, and Data Analytics.","knowsAbout":["Machine Learning","Data Science","Python","Pandas","NumPy","LangChain","FAISS","Streamlit","SQL","Data Visualization"],"address":{"@type":"PostalAddress","addressCountry":"IN"},"knowsLanguage":["en"],"worksFor":{"@id":"https://the-portfolio-tau.vercel.app/#org"}},{"@type":"Organization","@id":"https://the-portfolio-tau.vercel.app/#org","name":"Rohit Chavan — Data Science & AI","alternateName":"Rohit Chavan","url":"https://the-portfolio-tau.vercel.app","image":"https://the-portfolio-tau.vercel.app/assets/migrated/profile-picture-CRZIL6z0.webp","founder":{"@id":"https://the-portfolio-tau.vercel.app/#rohit"},"email":"chavanrohit2213@gmail.com","contactPoint":{"@type":"ContactPoint","contactType":"inquiries","email":"chavanrohit2213@gmail.com","availableLanguage":"en"},"description":"Data science solutions, machine learning systems, exploratory data analysis, and interactive dashboard applications."},{"@type":"WebSite","@id":"https://the-portfolio-tau.vercel.app/#site","url":"https://the-portfolio-tau.vercel.app","name":"Rohit Chavan — Portfolio","publisher":{"@id":"https://the-portfolio-tau.vercel.app/#rohit"},"inLanguage":"en"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://the-portfolio-tau.vercel.app/"},{"@type":"ListItem","position":2,"name":"Machine Learning & AI","item":"https://the-portfolio-tau.vercel.app/web-developer/"}]}]}</script>
 <meta name="google-site-verification" content="dB3k2roAkI1S8861shwLsjVKNyl1q-TjchYYJWrG-18" /></head>
 <body>
 <div class="glow" aria-hidden="true"></div>
 <header class="rn" id="rn">
   <div class="rn__in">
-    <nav aria-label="Primary"><ul><li><button data-nav="home">Home</button></li><li><button data-nav="door:0">Web Development</button></li><li><button data-nav="door:1" aria-current=page>App Development</button></li><li><button data-nav="door:2">UI/UX Design</button></li><li><button data-nav="door:3">Graphic Design</button></li><li><button data-nav="about">My story</button></li><li><button data-nav="contact">Contact</button></li></ul></nav>
+    <nav aria-label="Primary"><ul><li><button data-nav="home">Home</button></li><li><button data-nav="door:0">Analytic Projects</button></li><li><button data-nav="door:1">AI Apps &amp; RAG</button></li><li><button data-nav="door:2">Certificates</button></li><li><button data-nav="about">My story</button></li><li><button data-nav="contact">Contact</button></li></ul></nav>
     <div class="rn__clock" aria-label="Local time"><span>Local time</span><b data-ftime>—</b><span class="d">•</span><span class="d" data-fdate></span></div>
     <button class="rn__menu" id="rnMenu" aria-expanded="false" aria-controls="rnPanel"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg><span>Menu</span></button>
   </div>
@@ -343,105 +335,102 @@ html[data-mode="dark"] .skel::after{background-image:linear-gradient(100deg,#231
       <span class="rn__plbl">Menu</span>
       <button class="rn__pclose" id="rnClose" aria-label="Close menu"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
     </div>
-    <div class="rn__plist"><button data-nav="home">Home</button><button data-nav="door:0">Web Development</button><button data-nav="door:1" aria-current=page>App Development</button><button data-nav="door:2">UI/UX Design</button><button data-nav="door:3">Graphic Design</button><button data-nav="about">My story</button><button data-nav="contact">Contact</button></div>
-    <p class="rn__pfoot">Rishi Thakor — available for new work<br>Replies within 5 hours</p>
+    <div class="rn__plist"><button data-nav="home">Home</button><button data-nav="door:0">Analytic Projects</button><button data-nav="door:1">AI Apps &amp; RAG</button><button data-nav="door:2">Certificates</button><button data-nav="about">My story</button><button data-nav="contact">Contact</button></div>
+    <p class="rn__pfoot">Rohit Chavan — available for new work<br>Replies within 5 hours</p>
   </div>
 </header>
 
 <main class="wrap">
   <div class="top"><a class="chip" href="../#works">← Back to the doors</a></div>
   <section class="intro">
-    <h1>App Development</h1>
-    <div><p>iOS apps and games, designed and built end to end: from the first screen and the small interactions to the details that make an app feel at home on iPhone.</p></div>
+    <h1>Analytic Projects</h1>
+    <div><p>Commercial profitability across $2.2M+ in revenue, global streaming trends, customer churn risk modeling, and interactive academic performance dashboards.</p></div>
   </section>
   <section class="stack" id="stack" aria-label="Projects"><!--pre-->
   <article class="card" style="--i:0" aria-labelledby="p0">
     <div class="card__in">
       <div class="card__info">
-        <div class="app"><img src="icon-expense.webp" alt="" width="58" height="58" decoding="async" loading="eager"><p class="card__meta"><span>iOS app · Finance</span></p></div>
-        <h2 id="p0">Expense Tracker</h2>
-        <p class="sub">Personal finance, organised into books</p>
-        <p class="desc">Spending is grouped into expense books such as Personal, Travel and Business, each with its own budget. Add income or an expense in a couple of taps, see the balance, spend and budget used at a glance, and search across every entry.</p>
-        <ul class="tags"><li>Budgets</li><li>Expense books</li><li>Shortcuts &amp; Back Tap</li></ul>
-        <span class="note">Screen recording on iPhone</span>
+        <p class="card__meta"><span>Commercial Analytics · Retail Portfolio</span></p>
+        <h2 id="p0">Superstore Business Performance Analysis</h2>
+        <p class="sub">$2.2M+ Revenue Analysis · 9,994 Transaction Records</p>
+        <p class="desc">Explored 9,994 retail transaction records spanning multiple years, segmenting $2.2M+ in revenue by shipping mode, customer segment, and geography. Identified furniture loss pockets (Tables: -$17,725) and Technology as top profit driver ($145K+).</p>
+        <ul class="tags"><li>EDA</li><li>Profitability</li><li>Pandas</li><li>Matplotlib</li><li>Seaborn</li></ul>
+        <span class="note">Data Analysis &amp; Business Insights</span>
       </div>
       <div class="stage" aria-hidden="true">
-        <div class="phone"><div class="phone__body">
-          <i class="phone__btn l" style="top:19%;height:4%"></i><i class="phone__btn l" style="top:26%;height:7.5%"></i><i class="phone__btn l" style="top:35%;height:7.5%"></i><i class="phone__btn r" style="top:28%;height:11%"></i>
-          <div class="phone__screen" style="background-image:url(data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAABQBQCdASoWADAAPrFOoEunJCMhqqgA4BYJaQAAPY/9OjphkIk8XGYA6eEFf3dAe9tN3gAA/varJVrewwzMIzTFLawEO29Fx1JsHinvtEM2zUFTPr13RVQd9uhJzNhx6bwOr+5hOwzYEeeMEGNNChwNt7zrkEgAAAA=)">
-            <video muted loop playsinline preload="metadata" poster="app-expense.webp" src="app-expense.mp4"></video>
-            <div class="sbar"><span>9:41</span><span><svg aria-hidden="true" focusable="false" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 16 12" fill="currentColor"><path d="M8 2.2c2.3 0 4.4.9 6 2.4l1.3-1.4A10.6 10.6 0 0 0 8 .3 10.6 10.6 0 0 0 .7 3.2L2 4.6a8.7 8.7 0 0 1 6-2.4Zm0 3.8c1.3 0 2.5.5 3.4 1.3l1.3-1.4A6.8 6.8 0 0 0 8 4.1a6.8 6.8 0 0 0-4.7 1.8l1.3 1.4C5.5 6.5 6.7 6 8 6Zm0 3.7c-.6 0-1.1.2-1.5.6L8 12l1.5-1.7c-.4-.4-.9-.6-1.5-.6Z"/></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 27 12" fill="none"><rect x=".5" y=".5" width="22" height="11" rx="3.2" stroke="currentColor" opacity=".4"/><rect x="2" y="2" width="19" height="8" rx="2" fill="currentColor"/><path d="M24.5 4v4c.8-.3 1.3-1.1 1.3-2s-.5-1.7-1.3-2Z" fill="currentColor" opacity=".45"/></svg></span></div><div class="island"></div>
-          </div>
-        </div></div>
+        <div class="mon"><div class="mon__body"><div class="mon__screen">
+          <img class="page" src="../assets/migrated/superstore-performance-DCUSBugt.webp" alt="Superstore Business Performance Analysis: full-page screenshot" decoding="async" loading="eager">
+        </div></div><div class="mon__neck"></div><div class="mon__foot"></div></div>
       </div>
     </div>
-    <div class="card__dim"></div>
   </article>
   <article class="card flip" style="--i:1" aria-labelledby="p1">
     <div class="card__in">
       <div class="card__info">
-        <div class="app"><img src="icon-vault.webp" alt="" width="58" height="58" decoding="async" loading="lazy"><p class="card__meta"><span>iOS app · Privacy</span></p></div>
-        <h2 id="p1">Secret Vault</h2>
-        <p class="sub">A photo vault disguised as a calculator</p>
-        <p class="desc">It looks and works like an ordinary calculator. Type your secret equation and double-tap % to open a private vault: photos you import are hidden there and can be removed from your photo library.</p>
-        <ul class="tags"><li>Privacy</li><li>Equation passcode</li><li>Photos access</li></ul>
-        <span class="note">Recorded on iPhone with sample photos</span>
+        <p class="card__meta"><span>Exploratory Data Analysis · Entertainment Industry</span></p>
+        <h2 id="p1">Netflix Global Content &amp; Catalog Trends</h2>
+        <p class="sub">Streaming Platform Content &amp; Production Analytics</p>
+        <p class="desc">Comprehensive evaluation of Netflix content growth over time, popular genres, country-level distribution, clear dominance of Movies over TV Shows, and key content producer dynamics.</p>
+        <ul class="tags"><li>Content Analytics</li><li>Seaborn</li><li>Data Cleaning</li><li>Python</li></ul>
+        <span class="note">Exploratory Analysis &amp; Visualization</span>
       </div>
       <div class="stage" aria-hidden="true">
-        <div class="phone"><div class="phone__body">
-          <i class="phone__btn l" style="top:19%;height:4%"></i><i class="phone__btn l" style="top:26%;height:7.5%"></i><i class="phone__btn l" style="top:35%;height:7.5%"></i><i class="phone__btn r" style="top:28%;height:11%"></i>
-          <div class="phone__screen" style="background-image:url(data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwBgCdASoWADAAPpVClkmlpCIhOrzIALASiWkA0YAs2W94CsvMnPEjrZH9/8puNKKooDEk+IeuVpgAAP7y2dGMKDtWIkcS87pXM5c73fkTCwUF+DRPBtVySJ2nAkgXYpkqGTouykU4hp5cR55AAA==)">
-            <video muted loop playsinline preload="metadata" poster="app-vault.webp" src="app-vault.mp4"></video>
-            <div class="sbar"><span>9:41</span><span><svg aria-hidden="true" focusable="false" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 16 12" fill="currentColor"><path d="M8 2.2c2.3 0 4.4.9 6 2.4l1.3-1.4A10.6 10.6 0 0 0 8 .3 10.6 10.6 0 0 0 .7 3.2L2 4.6a8.7 8.7 0 0 1 6-2.4Zm0 3.8c1.3 0 2.5.5 3.4 1.3l1.3-1.4A6.8 6.8 0 0 0 8 4.1a6.8 6.8 0 0 0-4.7 1.8l1.3 1.4C5.5 6.5 6.7 6 8 6Zm0 3.7c-.6 0-1.1.2-1.5.6L8 12l1.5-1.7c-.4-.4-.9-.6-1.5-.6Z"/></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 27 12" fill="none"><rect x=".5" y=".5" width="22" height="11" rx="3.2" stroke="currentColor" opacity=".4"/><rect x="2" y="2" width="19" height="8" rx="2" fill="currentColor"/><path d="M24.5 4v4c.8-.3 1.3-1.1 1.3-2s-.5-1.7-1.3-2Z" fill="currentColor" opacity=".45"/></svg></span></div><div class="island"></div>
-          </div>
-        </div></div>
+        <div class="mon"><div class="mon__body"><div class="mon__screen">
+          <img class="page" src="../assets/migrated/1b1a06e0-9aff-45c7-a7e7-e9a02971cb69.webp" alt="Netflix Global Content &amp; Catalog Trends: full-page screenshot" decoding="async" loading="lazy">
+        </div></div><div class="mon__neck"></div><div class="mon__foot"></div></div>
       </div>
     </div>
-    <div class="card__dim"></div>
   </article>
   <article class="card" style="--i:2" aria-labelledby="p2">
     <div class="card__in">
       <div class="card__info">
-        <div class="app"><img src="icon-brick.webp" alt="" width="58" height="58" decoding="async" loading="lazy"><p class="card__meta"><span>iOS game · Arcade</span></p></div>
-        <h2 id="p2">Brick Breaker</h2>
-        <p class="sub">Arcade game with pixel-art levels</p>
-        <p class="desc">A fast arcade brick breaker: pixel-art levels, multi-ball power-ups that flood the screen, combos and a live score, with a pause menu and level-by-level progression.</p>
-        <ul class="tags"><li>Game design</li><li>Power-ups</li><li>Level design</li></ul>
-        <span class="note">Gameplay recorded on iPhone</span>
+        <p class="card__meta"><span>Customer Retention Intelligence</span></p>
+        <h2 id="p2">Telecom Customer Churn Analysis</h2>
+        <p class="sub">Retention Modeling &amp; Churn Risk Drivers</p>
+        <p class="desc">Identified high-risk churn indicators across customer tenures, contract commitments, internet service types, and payment mechanisms to recommend high-impact customer retention campaigns.</p>
+        <ul class="tags"><li>Churn Modeling</li><li>Data Analysis</li><li>Python</li><li>Risk Scoring</li></ul>
+        <span class="note">Customer Churn &amp; Retention Analytics</span>
       </div>
       <div class="stage" aria-hidden="true">
-        <div class="phone"><div class="phone__body">
-          <i class="phone__btn l" style="top:19%;height:4%"></i><i class="phone__btn l" style="top:26%;height:7.5%"></i><i class="phone__btn l" style="top:35%;height:7.5%"></i><i class="phone__btn r" style="top:28%;height:11%"></i>
-          <div class="phone__screen" style="background-image:url(data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAAAwBgCdASoWADAAPrFGnEmnI6KhNVQIAOAWCWQAx+Q5X7Fb2+drW7FLsX3d1xUlIStpj0XKMRUoP52gAP78ptUdXrARGOtskF8MifbUiH/I2pV9htfUcRcLEZsUP3eAJrueLZGNJKnWpRjMHdgv1VjyOxdpHawEbcckCq9I27rno3Us0eHZpDW7GUyMBuEKNr8UHt6C+GiJtKWqjfSRTnZKBO1LxxDHHMli2UNE0O2QAA==)">
-            <video muted loop playsinline preload="metadata" poster="app-brick.webp" src="app-brick.mp4"></video>
-            <div class="sbar"><span>9:41</span><span><svg aria-hidden="true" focusable="false" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 16 12" fill="currentColor"><path d="M8 2.2c2.3 0 4.4.9 6 2.4l1.3-1.4A10.6 10.6 0 0 0 8 .3 10.6 10.6 0 0 0 .7 3.2L2 4.6a8.7 8.7 0 0 1 6-2.4Zm0 3.8c1.3 0 2.5.5 3.4 1.3l1.3-1.4A6.8 6.8 0 0 0 8 4.1a6.8 6.8 0 0 0-4.7 1.8l1.3 1.4C5.5 6.5 6.7 6 8 6Zm0 3.7c-.6 0-1.1.2-1.5.6L8 12l1.5-1.7c-.4-.4-.9-.6-1.5-.6Z"/></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 27 12" fill="none"><rect x=".5" y=".5" width="22" height="11" rx="3.2" stroke="currentColor" opacity=".4"/><rect x="2" y="2" width="19" height="8" rx="2" fill="currentColor"/><path d="M24.5 4v4c.8-.3 1.3-1.1 1.3-2s-.5-1.7-1.3-2Z" fill="currentColor" opacity=".45"/></svg></span></div><div class="island"></div>
-          </div>
-        </div></div>
+        <div class="mon"><div class="mon__body"><div class="mon__screen">
+          <img class="page" src="../assets/migrated/telecom-churn-analysis-CMTomBhN.webp" alt="Telecom Customer Churn Analysis: full-page screenshot" decoding="async" loading="lazy">
+        </div></div><div class="mon__neck"></div><div class="mon__foot"></div></div>
       </div>
     </div>
-    <div class="card__dim"></div>
   </article>
   <article class="card flip" style="--i:3" aria-labelledby="p3">
     <div class="card__in">
       <div class="card__info">
-        <div class="app"><img src="icon-dice.webp" alt="" width="58" height="58" decoding="async" loading="lazy"><p class="card__meta"><span>iOS app · Utility</span></p></div>
-        <h2 id="p3">Dice</h2>
-        <p class="sub">A colourful dice roller</p>
-        <p class="desc">Roll several dice at once: each die fills its own block of colour and the total updates instantly, so a board-game night needs nothing but a phone.</p>
-        <ul class="tags"><li>Utility</li><li>Minimal UI</li><li>Tap to roll</li></ul>
-        <span class="note">Screen recording on iPhone</span>
+        <p class="card__meta"><span>Sports Data Analytics</span></p>
+        <h2 id="p3">IPL Auction 2023 - Dynamics &amp; Value Picks</h2>
+        <p class="sub">Sports Analytics · Franchise Spend Efficiency</p>
+        <p class="desc">Summarized auction dynamics across franchises, player categories, and bid distributions to surface spend efficiency and high-value player acquisitions.</p>
+        <ul class="tags"><li>Sports Analytics</li><li>Python</li><li>Data Visualization</li><li>Bidding Trends</li></ul>
+        <span class="note">Auction Analysis &amp; Spend Dynamics</span>
       </div>
       <div class="stage" aria-hidden="true">
-        <div class="phone"><div class="phone__body">
-          <i class="phone__btn l" style="top:19%;height:4%"></i><i class="phone__btn l" style="top:26%;height:7.5%"></i><i class="phone__btn l" style="top:35%;height:7.5%"></i><i class="phone__btn r" style="top:28%;height:11%"></i>
-          <div class="phone__screen" style="background-image:url(data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACQBACdASoWADAAPqlGnkmmJCMhMAqowBUJYgCDMfkgGEg4+mAlEH6d3GNpc0AA/rhzRmSQDP+chJNr/d1jZAbXbk4ynfkvNYiJnwJ5T43ypu3InS8X7SMq5QkGluq3yOIvkG7PRYsaKUYAAAA=)">
-            <video muted loop playsinline preload="metadata" poster="app-dice.webp" src="app-dice.mp4"></video>
-            <div class="sbar"><span>9:41</span><span><svg aria-hidden="true" focusable="false" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 16 12" fill="currentColor"><path d="M8 2.2c2.3 0 4.4.9 6 2.4l1.3-1.4A10.6 10.6 0 0 0 8 .3 10.6 10.6 0 0 0 .7 3.2L2 4.6a8.7 8.7 0 0 1 6-2.4Zm0 3.8c1.3 0 2.5.5 3.4 1.3l1.3-1.4A6.8 6.8 0 0 0 8 4.1a6.8 6.8 0 0 0-4.7 1.8l1.3 1.4C5.5 6.5 6.7 6 8 6Zm0 3.7c-.6 0-1.1.2-1.5.6L8 12l1.5-1.7c-.4-.4-.9-.6-1.5-.6Z"/></svg><svg aria-hidden="true" focusable="false" viewBox="0 0 27 12" fill="none"><rect x=".5" y=".5" width="22" height="11" rx="3.2" stroke="currentColor" opacity=".4"/><rect x="2" y="2" width="19" height="8" rx="2" fill="currentColor"/><path d="M24.5 4v4c.8-.3 1.3-1.1 1.3-2s-.5-1.7-1.3-2Z" fill="currentColor" opacity=".45"/></svg></span></div><div class="island"></div>
-          </div>
-        </div></div>
+        <div class="mon"><div class="mon__body"><div class="mon__screen">
+          <img class="page" src="../assets/migrated/ipl-auction-summary-BhFJOa8v.webp" alt="IPL Auction 2023 - Dynamics &amp; Value Picks: full-page screenshot" decoding="async" loading="lazy">
+        </div></div><div class="mon__neck"></div><div class="mon__foot"></div></div>
       </div>
     </div>
-    <div class="card__dim"></div>
+  </article>
+  <article class="card" style="--i:4" aria-labelledby="p4">
+    <div class="card__in">
+      <div class="card__info">
+        <p class="card__meta"><span>Demographic &amp; Academic Analytics</span></p>
+        <h2 id="p4">Student Performance Interactive Dashboard</h2>
+        <p class="sub">Coursework &amp; Demographic Test Score Analytics</p>
+        <p class="desc">Visual dashboard analyzing parental education, test preparation courses, and demographic correlations with student test scores across reading, writing, and mathematics.</p>
+        <ul class="tags"><li>Dashboard</li><li>Plotly</li><li>Statistical Visuals</li><li>Academic Analytics</li></ul>
+        <span class="note">Demographic Analysis &amp; Visual Analytics</span>
+      </div>
+      <div class="stage" aria-hidden="true">
+        <div class="mon"><div class="mon__body"><div class="mon__screen">
+          <img class="page" src="../assets/migrated/student-performance-dashboard-D00K1Oxr.webp" alt="Student Performance Interactive Dashboard: full-page screenshot" decoding="async" loading="lazy">
+        </div></div><div class="mon__neck"></div><div class="mon__foot"></div></div>
+      </div>
+    </div>
   </article><!--/pre--></section>
 </main>
 <div class="sfw">
@@ -455,29 +444,97 @@ html[data-mode="dark"] .skel::after{background-image:linear-gradient(100deg,#231
       
     </div>
     <div class="sf__cols">
-      <div><h3>Work</h3><ul class="work"><li><a href="../web-developer/" data-nav="door:0">Web Development</a></li><li><a href="../app-developer/" data-nav="door:1">App Development</a></li><li><a href="../ui-ux-designer/" data-nav="door:2">UI/UX Design</a></li><li><a href="../graphic-designer/" data-nav="door:3">Graphic Design</a></li><li><a href="../photographer/" data-nav="door:4">Photography</a></li></ul></div>
+      <div><h3>Work</h3><ul class="work"><li><a href="../analytics/">Analytic Projects</a></li><li><a href="../ai-apps/">AI Apps &amp; RAG</a></li><li><a href="../certificates/">Certificates</a></li></ul></div>
       <div><h3>Navigate</h3><ul><li><a href="../" data-nav="home">Home</a></li><li><a href="../#about" data-nav="about">My story</a></li><li><button data-nav="contact">Contact</button></li></ul></div>
       <div><h3>Status</h3><ul><li class="st">Available for work</li><li class="st">Remote-first, worldwide</li><li class="st">Local time <span data-ftime>—</span></li></ul></div>
     </div>
-    <div class="sf__bot"><span>© <span data-fyear>2026</span> Rishi Thakor. Designed and built by Rishi.</span><span class="sf__legal"><a href="../legal/" target="_top">Privacy &amp; credits</a></span><button data-nav="top">Back to top ↑</button></div>
+    <div class="sf__bot"><span>© <span data-fyear>2026</span> Rohit Chavan. All rights reserved.</span><span class="sf__legal"><a href="../legal/" target="_top">Privacy &amp; credits</a></span><button data-nav="top">Back to top ↑</button></div>
   </div>
 </footer>
 </div>
 <button class="totop" data-nav="top" aria-label="Back to top"><svg class="ring" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24"/></svg><svg class="ar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg><span class="lbl">Back to top</span></button>
 
 <script>
-const PROJECTS = [{"kind": "iOS app · Finance", "title": "Expense Tracker", "sub": "Personal finance, organised into books", "desc": "Spending is grouped into expense books such as Personal, Travel and Business, each with its own budget. Add income or an expense in a couple of taps, see the balance, spend and budget used at a glance, and search across every entry.", "tags": ["Budgets", "Expense books", "Shortcuts & Back Tap"], "video": "app-expense.mp4", "poster": "app-expense.webp", "icon": "icon-expense.webp", "note": "Screen recording on iPhone", "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAABQBQCdASoWADAAPrFOoEunJCMhqqgA4BYJaQAAPY/9OjphkIk8XGYA6eEFf3dAe9tN3gAA/varJVrewwzMIzTFLawEO29Fx1JsHinvtEM2zUFTPr13RVQd9uhJzNhx6bwOr+5hOwzYEeeMEGNNChwNt7zrkEgAAAA="}, {"kind": "iOS app · Privacy", "title": "Secret Vault", "sub": "A photo vault disguised as a calculator", "desc": "It looks and works like an ordinary calculator. Type your secret equation and double-tap % to open a private vault: photos you import are hidden there and can be removed from your photo library.", "tags": ["Privacy", "Equation passcode", "Photos access"], "video": "app-vault.mp4", "poster": "app-vault.webp", "icon": "icon-vault.webp", "note": "Recorded on iPhone with sample photos", "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwBgCdASoWADAAPpVClkmlpCIhOrzIALASiWkA0YAs2W94CsvMnPEjrZH9/8puNKKooDEk+IeuVpgAAP7y2dGMKDtWIkcS87pXM5c73fkTCwUF+DRPBtVySJ2nAkgXYpkqGTouykU4hp5cR55AAA=="}, {"kind": "iOS game · Arcade", "title": "Brick Breaker", "sub": "Arcade game with pixel-art levels", "desc": "A fast arcade brick breaker: pixel-art levels, multi-ball power-ups that flood the screen, combos and a live score, with a pause menu and level-by-level progression.", "tags": ["Game design", "Power-ups", "Level design"], "video": "app-brick.mp4", "poster": "app-brick.webp", "icon": "icon-brick.webp", "note": "Gameplay recorded on iPhone", "lqip": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAAAwBgCdASoWADAAPrFGnEmnI6KhNVQIAOAWCWQAx+Q5X7Fb2+drW7FLsX3d1xUlIStpj0XKMRUoP52gAP78ptUdXrARGOtskF8MifbUiH/I2pV9htfUcRcLEZsUP3eAJrueLZGNJKnWpRjMHdgv1VjyOxdpHawEbcckCq9I27rno3Us0eHZpDW7GUyMBuEKNr8UHt6C+GiJtKWqjfSRTnZKBO1LxxDHHMli2UNE0O2QAA=="}, {"kind": "iOS app · Utility", "title": "Dice", "sub": "A colourful dice roller", "desc": "Roll several dice at once: each die fills its own block of colour and the total updates instantly, so a board-game night needs nothing but a phone.", "tags": ["Utility", "Minimal UI", "Tap to roll"], "video": "app-dice.mp4", "poster": "app-dice.webp", "icon": "icon-dice.webp", "note": "Screen recording on iPhone", "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACQBACdASoWADAAPqlGnkmmJCMhMAqowBUJYgCDMfkgGEg4+mAlEH6d3GNpc0AA/rhzRmSQDP+chJNr/d1jZAbXbk4ynfkvNYiJnwJ5T43ypu3InS8X7SMq5QkGluq3yOIvkG7PRYsaKUYAAAA="}];
-const ARROW = '<svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg>';
-const SIG = '<svg aria-hidden="true" focusable="false" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg>';
-const WIFI = '<svg aria-hidden="true" focusable="false" viewBox="0 0 16 12" fill="currentColor"><path d="M8 2.2c2.3 0 4.4.9 6 2.4l1.3-1.4A10.6 10.6 0 0 0 8 .3 10.6 10.6 0 0 0 .7 3.2L2 4.6a8.7 8.7 0 0 1 6-2.4Zm0 3.8c1.3 0 2.5.5 3.4 1.3l1.3-1.4A6.8 6.8 0 0 0 8 4.1a6.8 6.8 0 0 0-4.7 1.8l1.3 1.4C5.5 6.5 6.7 6 8 6Zm0 3.7c-.6 0-1.1.2-1.5.6L8 12l1.5-1.7c-.4-.4-.9-.6-1.5-.6Z"/></svg>';
-const BATT = '<svg aria-hidden="true" focusable="false" viewBox="0 0 27 12" fill="none"><rect x=".5" y=".5" width="22" height="11" rx="3.2" stroke="currentColor" opacity=".4"/><rect x="2" y="2" width="19" height="8" rx="2" fill="currentColor"/><path d="M24.5 4v4c.8-.3 1.3-1.1 1.3-2s-.5-1.7-1.3-2Z" fill="currentColor" opacity=".45"/></svg>';
+const PROJECTS = [
+  {
+    "kind": "Commercial Analytics · Retail Portfolio",
+    "title": "Superstore Business Performance Analysis",
+    "sub": "$2.2M+ Revenue Analysis · 9,994 Transaction Records",
+    "desc": "Explored 9,994 retail transaction records spanning multiple years, segmenting $2.2M+ in revenue by shipping mode, customer segment, and geography. Identified furniture loss pockets (Tables: -$17,725) and Technology as top profit driver ($145K+).",
+    "tags": [
+      "EDA",
+      "Profitability",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn"
+    ],
+    "shot": "../assets/migrated/superstore-performance-DCUSBugt.webp",
+    "note": "Data Analysis & Business Insights"
+  },
+  {
+    "kind": "Exploratory Data Analysis · Entertainment Industry",
+    "title": "Netflix Global Content & Catalog Trends",
+    "sub": "Streaming Platform Content & Production Analytics",
+    "desc": "Comprehensive evaluation of Netflix content growth over time, popular genres, country-level distribution, clear dominance of Movies over TV Shows, and key content producer dynamics.",
+    "tags": [
+      "Content Analytics",
+      "Seaborn",
+      "Data Cleaning",
+      "Python"
+    ],
+    "shot": "../assets/migrated/1b1a06e0-9aff-45c7-a7e7-e9a02971cb69.webp",
+    "note": "Exploratory Analysis & Visualization"
+  },
+  {
+    "kind": "Customer Retention Intelligence",
+    "title": "Telecom Customer Churn Analysis",
+    "sub": "Retention Modeling & Churn Risk Drivers",
+    "desc": "Identified high-risk churn indicators across customer tenures, contract commitments, internet service types, and payment mechanisms to recommend high-impact customer retention campaigns.",
+    "tags": [
+      "Churn Modeling",
+      "Data Analysis",
+      "Python",
+      "Risk Scoring"
+    ],
+    "shot": "../assets/migrated/telecom-churn-analysis-CMTomBhN.webp",
+    "note": "Customer Churn & Retention Analytics"
+  },
+  {
+    "kind": "Sports Data Analytics",
+    "title": "IPL Auction 2023 - Dynamics & Value Picks",
+    "sub": "Sports Analytics · Franchise Spend Efficiency",
+    "desc": "Summarized auction dynamics across franchises, player categories, and bid distributions to surface spend efficiency and high-value player acquisitions.",
+    "tags": [
+      "Sports Analytics",
+      "Python",
+      "Data Visualization",
+      "Bidding Trends"
+    ],
+    "shot": "../assets/migrated/ipl-auction-summary-BhFJOa8v.webp",
+    "note": "Auction Analysis & Spend Dynamics"
+  },
+  {
+    "kind": "Demographic & Academic Analytics",
+    "title": "Student Performance Interactive Dashboard",
+    "sub": "Coursework & Demographic Test Score Analytics",
+    "desc": "Visual dashboard analyzing parental education, test preparation courses, and demographic correlations with student test scores across reading, writing, and mathematics.",
+    "tags": [
+      "Dashboard",
+      "Plotly",
+      "Statistical Visuals",
+      "Academic Analytics"
+    ],
+    "shot": "../assets/migrated/student-performance-dashboard-D00K1Oxr.webp",
+    "note": "Demographic Analysis & Visual Analytics"
+  }
+];
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const stack = document.getElementById('stack');
 if (!stack.firstElementChild) stack.innerHTML = PROJECTS.map((p, i) => `
   <article class="card${i % 2 ? ' flip' : ''}" style="--i:${i}" aria-labelledby="p${i}">
     <div class="card__in">
       <div class="card__info">
-        <div class="app"><img src="${p.icon}" alt="" width="58" height="58" decoding="async" loading="${i < 1 ? 'eager' : 'lazy'}"><p class="card__meta"><span>${esc(p.kind)}</span></p></div>
+        <p class="card__meta"><span>${esc(p.kind)}</span></p>
         <h2 id="p${i}">${esc(p.title)}</h2>
         <p class="sub">${esc(p.sub)}</p>
         <p class="desc">${esc(p.desc)}</p>
@@ -485,13 +542,10 @@ if (!stack.firstElementChild) stack.innerHTML = PROJECTS.map((p, i) => `
         ${p.url ? `<a class="live" href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">Visit live site ${ARROW}</a>` : `<span class="note">${esc(p.note || 'Screen recording of the build')}</span>`}
       </div>
       <div class="stage" aria-hidden="true">
-        <div class="phone"><div class="phone__body">
-          <i class="phone__btn l" style="top:19%;height:4%"></i><i class="phone__btn l" style="top:26%;height:7.5%"></i><i class="phone__btn l" style="top:35%;height:7.5%"></i><i class="phone__btn r" style="top:28%;height:11%"></i>
-          <div class="phone__screen" style="background-image:url(${p.lqip})">
-            <video muted loop playsinline preload="metadata" poster="${p.poster}" src="${p.video}"></video>
-            <div class="sbar"><span>9:41</span><span>${SIG}${WIFI}${BATT}</span></div><div class="island"></div>
-          </div>
-        </div></div>
+        <div class="mon"><div class="mon__body"><div class="mon__screen${p.ar ? ' vid' : ''}"${p.ar ? ` style="--ar:${p.ar}"` : ''}>
+          ${p.video ? `<video muted loop playsinline preload="metadata" poster="${p.poster}" src="${p.video}" style="background:${p.bg || '#000'};object-fit:${p.fit || 'contain'}"></video>`
+                    : `<img class="page" src="${p.shot}" alt="${esc(p.title)}: full-page screenshot" decoding="async" loading="${i < 1 ? 'eager' : 'lazy'}">`}
+        </div></div><div class="mon__neck"></div><div class="mon__foot"></div></div>
       </div>
     </div>
     <div class="card__dim"></div>
@@ -499,51 +553,9 @@ if (!stack.firstElementChild) stack.innerHTML = PROJECTS.map((p, i) => `
 
 const cards = [...stack.querySelectorAll('.card')];
 // a recording's screen takes the recording's own shape, so nothing is cropped or letterboxed
-/* Recordings play one at a time, and are plain videos: a real source, the browser's own poster and
-   metadata preload, exactly like the UI/UX page. Safari draws its own still from the poster, so
-   nothing has to be filled in by script before a screen can show a picture. Phones decode only a
-   few videos at once, so only the screen being looked at plays and the rest are paused. */
-const VIDS = cards.map(c => {
-  const v = c.querySelector('video'); if (!v) return null;
-  const scr = v.parentElement; scr.classList.add('vid');
-  const o = { c, v, scr, armed: false, failed: false };
-  const shape = () => { if (v.videoWidth) scr.style.setProperty('--ar', v.videoWidth + ' / ' + v.videoHeight); };
-  if (v.readyState >= 1) shape(); else v.addEventListener('loadedmetadata', shape, { once: true });
-  v.addEventListener('error', () => { o.failed = true; });      // the poster simply stays
-  return o;
-}).filter(Boolean);
-function arm(o){ o.armed = true; }
-function release(o){ o.armed = false; try { o.v.pause(); } catch (e) {} }
-let activeVid = null;
-function pickVideo(){
-  if (!window.__live){ VIDS.forEach(release); activeVid = null; return; }
-  // Which screen is the person actually looking at? Measure how much of each screen is
-  // on display (cards stack over one another, so a screen stops where the next card starts).
-  // Anything showing most of itself is a real candidate, and of those the one nearest the
-  // middle of the window wins, so a card just sliding in at the bottom cannot steal it.
-  const seen = [];
-  for (const o of VIDS){
-    if (o.failed || !o.c.classList.contains('on')) continue;
-    const r = o.scr.getBoundingClientRect();
-    if (r.height < 1) continue;
-    let top = Math.max(r.top, 0), bot = Math.min(r.bottom, innerHeight);
-    const i = cards.indexOf(o.c);
-    for (let k = i + 1; k < cards.length; k++){
-      const n = cards[k].getBoundingClientRect();
-      if (n.top < bot) bot = Math.min(bot, n.top);
-    }
-    const area = Math.max(0, bot - top);
-    if (area < 40) continue;
-    seen.push({ o, area, frac: area / r.height, dist: Math.abs((top + bot) / 2 - innerHeight / 2) });
-  }
-  let best = null;
-  const solid = seen.filter(x => x.frac >= 0.4);
-  if (solid.length) best = solid.sort((a, b) => a.dist - b.dist)[0].o;
-  else if (seen.length) best = seen.sort((a, b) => b.area - a.area)[0].o;
-  if (best !== activeVid){ VIDS.forEach(o => { if (o !== best) release(o); }); activeVid = best; }
-  if (best){ arm(best); best.v.play().catch(() => {}); }
-}
-window.__pickVideo = pickVideo;
+cards.forEach(c => { const v = c.querySelector('video'); if (!v) return; const scr = v.parentElement; scr.classList.add('vid');
+  const set = () => { if (v.videoWidth) scr.style.setProperty('--ar', v.videoWidth + ' / ' + v.videoHeight); };
+  if (v.readyState >= 1) set(); else v.addEventListener('loadedmetadata', set, { once: true }); });
 // each live page scrolls itself top to bottom and back on its screen
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 // inside the home page the room is loaded early, out of sight: nothing plays until you have walked in and it has faded up
@@ -551,7 +563,7 @@ window.__live = !document.documentElement.classList.contains('embed');
 window.__restartAll = () => {};
 const SPEED = 230, REST = 1100;           // screen pixels a second, pause at each end (ms)
 const shots = cards.map(c => {
-  const img = c.querySelector('img.page'), scr = c.querySelector('.phone__screen'); if (!img) return null;
+  const img = c.querySelector('img.page'), scr = c.querySelector('.mon__screen'); if (!img) return null;
   const s = { c, img, scr, pos: 0, dist: 0, dir: 1, wait: REST, held: false };
   const measure = () => { s.dist = Math.max(0, img.offsetHeight - scr.clientHeight); s.pos = Math.min(s.pos, s.dist); paint(s); };
   if (img.complete && img.naturalWidth) measure(); else img.addEventListener('load', measure, { once: true });
@@ -562,7 +574,7 @@ function paint(s){ s.img.style.transform = `translate3d(0,${-s.pos.toFixed(1)}px
 addEventListener('resize', () => shots.forEach(s => s.measure()));
 // once a screen has been completely out of sight (scrolled away, or fully covered by the card stacked over it),
 // it starts again from the top of its page the next time it shows
-const screens = cards.map(c => ({ c, scr: c.querySelector('.phone__screen'), hidden: true, s: shots.find(x => x.c === c), v: c.querySelector('video') }));
+const screens = cards.map(c => ({ c, scr: c.querySelector('.mon__screen'), hidden: true, s: shots.find(x => x.c === c), v: c.querySelector('video') }));
 function restart(o){
   if (o.s){ o.s.pos = 0; o.s.dir = 1; o.s.wait = REST; paint(o.s); }
   if (o.v){ try { o.v.currentTime = 0; } catch (err) {} }
@@ -581,7 +593,7 @@ function checkHidden(){
     if (o.s) o.s.covered = hidden;
   });
 }
-window.__restartAll = () => { screens.forEach(restart); VIDS.forEach(release); activeVid = null; };
+window.__restartAll = () => { screens.forEach(o => { restart(o); if (o.v) o.v.pause(); }); };
 let checkRaf = 0;
 const queueCheckHidden = () => { if (!checkRaf){ checkRaf = requestAnimationFrame(() => { checkRaf = 0; checkHidden(); }); } };
 addEventListener('scroll', queueCheckHidden, { passive: true }); addEventListener('resize', checkHidden);
@@ -607,7 +619,7 @@ checkHidden();
 const io = new IntersectionObserver(es => es.forEach(e => {
   const c = e.target; c.classList.toggle('on', e.isIntersecting);
   if (e.isIntersecting) c.classList.add('seen');
-  window.__pickVideo?.();
+  const v = c.querySelector('video'); if (v){ if (e.isIntersecting && window.__live) v.play().catch(() => {}); else v.pause(); }
 }), { threshold: .25 });
 cards.forEach(c => io.observe(c));
 // stacking: as the next card slides over, the one beneath settles back a little
@@ -651,7 +663,7 @@ if (!reduced){ addEventListener('scroll', () => { if (!ticking){ ticking = true;
     const m = e.data || {};
     if (m.wall === 'enter'){ root.classList.remove('out'); scrollTo(0, 0); window.__restartAll(); requestAnimationFrame(() => root.classList.add('in'));
       clearTimeout(window.__liveT); window.__liveT = setTimeout(() => { window.__live = true; checkHidden(); dispatchEvent(new Event('scroll')); }, 650); }
-    if (m.wall === 'exit'){ clearTimeout(window.__liveT); window.__live = false; root.classList.add('out'); root.classList.remove('in'); window.__pickVideo?.(); }   // __live is false now, so every decoder is handed back
+    if (m.wall === 'exit'){ clearTimeout(window.__liveT); window.__live = false; root.classList.add('out'); root.classList.remove('in'); document.querySelectorAll('video').forEach(v => v.pause()); }
     if (m.wall === 'reset'){ root.classList.remove('out', 'in'); }
     if (m.wall === 'mode'){ if (m.mode === 'dark') root.dataset.mode = 'dark'; else delete root.dataset.mode; }
   });
@@ -854,7 +866,7 @@ if (!reduced){ addEventListener('scroll', () => { if (!ticking){ ticking = true;
 <div class="ck" id="ck" role="region" aria-label="Analytics choice" hidden><p>May I count your visit with Google Analytics? It sets cookies. <a href="/legal/">Details</a></p><div><button type="button" data-ck="no">No thanks</button><button type="button" data-ck="yes">Allow</button></div></div>
 <script>
 (() => {
-  const ID = 'G-12PNLHKGHK', K = 'rishi-analytics';
+  const ID = 'G-12PNLHKGHK', K = 'rohit-analytics';
   let v = null; try { v = localStorage.getItem(K); } catch (e) {}
   const load = () => {
     window.dataLayer = window.dataLayer || [];
